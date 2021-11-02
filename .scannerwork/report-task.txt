@@ -1,0 +1,6 @@
+projectKey=NodeSonarExample
+serverUrl=http://localhost:9000
+serverVersion=9.1.0.47736
+dashboardUrl=http://localhost:9000/dashboard?id=NodeSonarExample
+ceTaskId=AXzgfbEa6cC0kzYJtbY3
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXzgfbEa6cC0kzYJtbY3

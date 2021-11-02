@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/suman/Development/NodeSonarExample/src/test/index.test.js">
+        <testCase name="Get Endpoints Get" duration="76">
+            <failure message="Error: listen EADDRINUSE: address already in use :::8080"><![CDATA[Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1286:16)
+    at listenInCluster (node:net:1334:12)
+    at Server.listen (node:net:1420:7)
+    at Function.listen (/Users/suman/Development/NodeSonarExample/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/suman/Development/NodeSonarExample/src/index.js:9:18)
+    at Runtime._execModule (/Users/suman/Development/NodeSonarExample/node_modules/jest-runtime/build/index.js:1646:24)
+    at Runtime._loadModule (/Users/suman/Development/NodeSonarExample/node_modules/jest-runtime/build/index.js:1185:12)
+    at Runtime.requireModule (/Users/suman/Development/NodeSonarExample/node_modules/jest-runtime/build/index.js:1009:12)
+    at Runtime.require [as requireModuleOrMock] (/Users/suman/Development/NodeSonarExample/node_modules/jest-runtime/build/index.js:1210:21)
+    at Object.<anonymous> (/Users/suman/Development/NodeSonarExample/src/test/index.test.js:2:16)]]></failure>
+            <failure message="Error: Test functions cannot both take a &apos;done&apos; callback and return something. Either use a &apos;done&apos; callback, or return a promise."><![CDATA[Error: Test functions cannot both take a 'done' callback and return something. Either use a 'done' callback, or return a promise.
+Returned value: Promise {}
+    at /Users/suman/Development/NodeSonarExample/src/test/index.test.js:4:5
+    at _dispatchDescribe (/Users/suman/Development/NodeSonarExample/node_modules/jest-circus/build/index.js:97:26)
+    at describe (/Users/suman/Development/NodeSonarExample/node_modules/jest-circus/build/index.js:60:5)
+    at Object.<anonymous> (/Users/suman/Development/NodeSonarExample/src/test/index.test.js:3:1)
+    at Runtime._execModule (/Users/suman/Development/NodeSonarExample/node_modules/jest-runtime/build/index.js:1646:24)
+    at Runtime._loadModule (/Users/suman/Development/NodeSonarExample/node_modules/jest-runtime/build/index.js:1185:12)
+    at Runtime.requireModule (/Users/suman/Development/NodeSonarExample/node_modules/jest-runtime/build/index.js:1009:12)
+    at jestAdapter (/Users/suman/Development/NodeSonarExample/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runTestInternal (/Users/suman/Development/NodeSonarExample/node_modules/jest-runner/build/runTest.js:389:16)]]></failure>
+        </testCase>
+    </file>
+</testExecutions>
